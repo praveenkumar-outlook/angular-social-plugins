@@ -1,0 +1,22 @@
+{
+  "name": "angular-facebook-plugins",
+  "version": "1.0.0",
+  "description": "Facebook plugins directive built with AngularJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenkumar-outlook/angular-facebook-plugins.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Praveenkumar K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenkumar-outlook/angular-facebook-plugins/issues"
+  },
+  "homepage": "https://github.com/praveenkumar-outlook/angular-facebook-plugins#readme"
+}
