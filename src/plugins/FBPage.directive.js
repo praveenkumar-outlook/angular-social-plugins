@@ -57,7 +57,7 @@ export default angular.module('fbPagePlugin', [])
             version: scope.version,
           });
         };
-    
+
         // Load the SDK asynchronously
         ((d, s, id) => {
           const element = d.getElementsByTagName(s)[0];
@@ -69,5 +69,5 @@ export default angular.module('fbPagePlugin', [])
           fjs.parentNode.insertBefore(js, fjs);
         })(document, 'script', 'facebook-jssdk');
       }
-    }
+    };
   }]).name;
