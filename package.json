@@ -17,8 +17,8 @@
     "facebook",
     "plugins"
   ],
-  "author": "Praveenkumar K",
-  "license": "ISC",
+  "author": "Praveenkumar K <praveen.ece@outlook.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/praveenkumar-outlook/angular-facebook-plugins/issues"
   },
