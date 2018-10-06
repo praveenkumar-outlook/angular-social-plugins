@@ -1,10 +1,10 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
-import AngularFacebookPlugins from '../../src/index';
+import AngularSocialPlugins from '../../src';
 
 angular.module('app', [
   uiRouter,
-  AngularFacebookPlugins
+  AngularSocialPlugins
 ]).config(['$stateProvider', '$urlRouterProvider',
   ($stateProvider, $urlRouterProvider) => {
     $urlRouterProvider.otherwise('/');

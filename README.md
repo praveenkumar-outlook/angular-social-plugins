@@ -1,11 +1,11 @@
-# Angular Facebook Plugins
+# Angular Social Plugins
 
 ## Install
 
 Install the component using [NPM](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save angular-facebook-plugins
+$ npm install --save angular-social-plugins
 ```
 
 ## Usage
@@ -13,10 +13,10 @@ $ npm install --save angular-facebook-plugins
 ### Initialise module
 
 ```js
-import AngularFacebookPlugins from 'angular-facebook-plugins';
+import AngularSocialPlugins from 'angular-social-plugins';
 
 angular.module('app', [
-  AngularFacebookPlugins
+  AngularSocialPlugins
 ]);
 ```
 
@@ -81,12 +81,6 @@ angular.module('app', [
   version="v3.1"
   xfbml="true"></fb-quote>
 ```
-
-## Roadmap
-- [X] Comments
-- [X] Group
-- [X] Page
-- [X] Quote
 
 ## License
 

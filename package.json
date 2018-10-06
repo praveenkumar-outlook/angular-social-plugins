@@ -1,7 +1,7 @@
 {
-  "name": "angular-facebook-plugins",
+  "name": "angular-social-plugins",
   "version": "1.0.0",
-  "description": "Facebook plugins directive built with AngularJs",
+  "description": "social plugins directive built with AngularJs",
   "main": "./lib/index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./dev/webpack.config.js",
@@ -10,19 +10,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praveenkumar-outlook/angular-facebook-plugins.git"
+    "url": "git+https://github.com/praveenkumar-outlook/angular-social-plugins.git"
   },
   "keywords": [
+    "angular",
     "angularjs",
+    "social",
     "facebook",
-    "plugins"
+    "plugins",
+    "comment",
+    "group",
+    "page",
+    "quote"
   ],
   "author": "Praveenkumar K <praveen.ece@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/praveenkumar-outlook/angular-facebook-plugins/issues"
+    "url": "https://github.com/praveenkumar-outlook/angular-social-plugins/issues"
   },
-  "homepage": "https://github.com/praveenkumar-outlook/angular-facebook-plugins#readme",
+  "homepage": "https://github.com/praveenkumar-outlook/angular-social-plugins#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "angular-ui-router": "^1.0.20",
