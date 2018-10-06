@@ -1,7 +1,7 @@
 {
   "name": "angular-social-plugins",
   "version": "1.0.0",
-  "description": "social plugins directive built with AngularJs",
+  "description": "Social network plugins directive built with AngularJs",
   "main": "./lib/index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./dev/webpack.config.js",
