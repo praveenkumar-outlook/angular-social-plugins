@@ -1,7 +1,7 @@
 import angular from 'angular';
 import _ from 'underscore';
 
-export default angular.module('fbPagePlugin', [])
+export default angular.module('fbSavePugin', [])
   .directive('fbSave', ['$window', ($window) => {
     return {
       restrict: 'E',
@@ -11,7 +11,6 @@ export default angular.module('fbPagePlugin', [])
         size: '@',
         version: '@',
         uri: '@',
-        width: '@',
         xfbml: '@'
       },
       template: `<div>
