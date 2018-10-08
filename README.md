@@ -25,6 +25,7 @@ angular.module('app', [
 - [FB Group](#fb-group)
 - [FB Page](#fb-page)
 - [FB Quote](#fb-quote)
+- [FB Save](#fb-save)
 
 #### FB Comments
 ```html
@@ -80,6 +81,17 @@ angular.module('app', [
   locale="en_US"
   version="v3.1"
   xfbml="true"></fb-quote>
+```
+
+#### FB Save
+```html
+<fb-save
+  app-id="xxxxxxxxxxxxxxx"
+  uri="https://www.instagram.com/facebook/"
+  locale="en_US"
+  size="large"
+  version="v3.1"
+  xfbml="true"></fb-save>
 ```
 
 ## License

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config ./dev/webpack.config.js",
     "build": "babel ./src --out-dir ./lib",
-    "eslint": "eslint ."
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,6 @@
     "underscore": "^1.9.1"
   },
   "pre-commit": [
-    "eslint"
+    "lint"
   ]
 }
