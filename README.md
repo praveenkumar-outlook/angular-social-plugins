@@ -26,6 +26,7 @@ angular.module('app', [
 - [FB Page](#fb-page)
 - [FB Quote](#fb-quote)
 - [FB Save](#fb-save)
+- [FB Share](#fb-share)
 
 #### FB Comments
 ```html
@@ -92,6 +93,18 @@ angular.module('app', [
   size="large"
   version="v3.1"
   xfbml="true"></fb-save>
+```
+
+#### FB Share
+```html
+<fb-share
+  app-id="xxxxxxxxxxxxxxx"
+  uri="https://developers.facebook.com/docs/plugins/"
+  layout="button_count"
+  locale="en_US"
+  size="large"
+  version="v3.1"
+  xfbml="true"></fb-share>
 ```
 
 ## License
