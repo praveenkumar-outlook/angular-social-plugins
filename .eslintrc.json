@@ -10,7 +10,14 @@
         "sourceType": "module"
     },
     "globals": {
-        "FB": true
+        "FB": true,
+        "inject": true,
+        "beforeEach": true,
+        "describe": true,
+        "it": true,
+        "expect": true,
+        "module": true,
+        "angular": true
     },
     "rules": {
         "indent": [
