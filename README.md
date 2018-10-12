@@ -23,6 +23,7 @@ angular.module('app', [
 ### Use it in html
 - [FB Comments](#fb-comments)
 - [FB Group](#fb-group)
+- [FB Like](#fb-like)
 - [FB Page](#fb-page)
 - [FB Quote](#fb-quote)
 - [FB Save](#fb-save)
@@ -55,6 +56,19 @@ angular.module('app', [
   width="280"
   skin="light"
   xfbml="true"></fb-group>
+```
+
+#### FB Like
+```html
+<fb-like
+  app-id="xxxxxxxxxxxxxxx"
+  href="https://developers.facebook.com/docs/plugins/"
+  action="like"
+  layout="standard"
+  share="true"
+  showFaces="true"
+  size="large"
+  xfbml="true"></fb-like>
 ```
 
 #### FB Page
