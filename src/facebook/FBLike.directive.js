@@ -1,7 +1,7 @@
 import angular from 'angular';
 import _ from 'underscore';
 
-export default angular.module('fbLikePugin', [])
+export default angular.module('fbLikePlugin', [])
   .directive('fbLike', ['$window', ($window) => {
     return {
       restrict: 'E',
