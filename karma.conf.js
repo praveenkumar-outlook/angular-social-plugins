@@ -14,9 +14,10 @@ module.exports = (config) => {
     exclude: [
     ],
     preprocessors: {
-      'src/index.js': ['webpack']
+      'src/index.js': ['webpack'],
+      'src/**/*.js': ['coverage']
     },
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
