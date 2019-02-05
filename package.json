@@ -4,9 +4,11 @@
   "description": "Social network plugins directive built with AngularJs",
   "main": "./lib/index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config ./dev/webpack.config.js",
-    "build": "babel ./src --out-dir ./lib --ignore ./src/**/*spec.js",
-    "lint": "eslint .",
+    "dev": "webpack-dev-server --config ./tools/webpack.dev.config.js",
+    "build": "webpack --config ./tools/webpack.build.config.js --mode=none",
+    "build-min": "webpack --config ./tools/webpack.build.config.js --mode=production",
+    "lint": "eslint --ext .js src/",
+    "lint-dev": "eslint --ext .js dev/",
     "test": "karma start"
   },
   "repository": {
@@ -50,9 +52,9 @@
     "karma-jasmine": "^1.1.2",
     "karma-webpack": "^3.0.5",
     "pre-commit": "^1.2.2",
-    "webpack": "^4.17.1",
+    "webpack": "^4.29.1",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.6"
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
     "angular": "^1.5.11",
