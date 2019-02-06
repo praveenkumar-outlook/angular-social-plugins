@@ -2,7 +2,7 @@
   "name": "angular-social-plugins",
   "version": "1.1.0",
   "description": "Social network plugins directive built with AngularJs",
-  "main": "./lib/index.js",
+  "main": "./lib/angular-social-plugins.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./tools/webpack.dev.config.js",
     "build": "webpack --config ./tools/webpack.build.config.js --mode=none",
@@ -27,7 +27,8 @@
     "quote",
     "like",
     "save",
-    "send"
+    "send",
+    "messenger"
   ],
   "author": "Praveenkumar K <praveen.ece@outlook.com>",
   "license": "MIT",
