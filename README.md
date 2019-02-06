@@ -43,6 +43,7 @@ angular.module('app', [
 - [FB Quote](#fb-quote)
 - [FB Save](#fb-save)
 - [FB Share](#fb-share)
+- [FB Messenger](#fb-messenger)
 
 #### FB Comments
 ```html
@@ -134,6 +135,14 @@ angular.module('app', [
   size="large"
   version="v3.1"
   xfbml="true"></fb-share>
+```
+
+#### FB Messenger
+```html
+<fb-messenger
+  app-id="xxxxxxxxxxxxxxx"
+  page-id="xxxxxxxxxxxxxxx"
+  xfbml="true"></fb-messenger>
 ```
 
 ## License
