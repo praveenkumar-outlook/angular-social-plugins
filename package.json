@@ -6,14 +6,14 @@
   "scripts": {
     "dev": "webpack-dev-server --config ./tools/webpack.dev.config.js",
     "build": "webpack --config ./tools/webpack.build.config.js --mode=none",
-    "build-min": "webpack --config ./tools/webpack.build.config.js --mode=production",
+    "build:min": "webpack --config ./tools/webpack.build.config.js --mode=production",
     "lint": "eslint --ext .js src/",
-    "lint-dev": "eslint --ext .js dev/",
+    "lint:dev": "eslint --ext .js dev/",
     "test": "karma start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praveenkumar-outlook/angular-social-plugins.git"
+    "url": "git+https://github.com/praveenkumar-kalidass/angular-social-plugins.git"
   },
   "keywords": [
     "angular",
@@ -30,12 +30,12 @@
     "send",
     "messenger"
   ],
-  "author": "Praveenkumar K <praveen.ece@outlook.com>",
+  "author": "Praveenkumar Kalidass <praveen.ece@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/praveenkumar-outlook/angular-social-plugins/issues"
+    "url": "https://github.com/praveenkumar-kalidass/angular-social-plugins/issues"
   },
-  "homepage": "https://github.com/praveenkumar-outlook/angular-social-plugins#readme",
+  "homepage": "https://github.com/praveenkumar-kalidass/angular-social-plugins#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "angular-mocks": "^1.8.0",
